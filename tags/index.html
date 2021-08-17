@@ -38,30 +38,6 @@
 
     <!--------- 数学公式👇---- -->
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css"
-        integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"
-        integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"
-        integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous">
-    </script>
-    <script>
-        renderMathInElement(document.body, {
-            delimiters: [{
-                    left: "$$",
-                    right: "$$",
-                    display: true
-                },
-                {
-                    left: "$",
-                    right: "$",
-                    display: false
-                }
-            ]
-        });
-    </script>
-    
     <!--------- 数学公式👆----------------- -->
     <!--------- daovocie功能👇 ------------------->
     
@@ -108,7 +84,7 @@
                         src='https://piercingasphyxia.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://piercingasphyxia.github.io/images/avatar.png?v=1629204422212" class="avatar">
+            <img src="https://piercingasphyxia.github.io/images/avatar.png?v=1629205040229" class="avatar">
         </div>
         <div class="sitename">Programming_Fate</div>
         <span class="description" data-text='["星光不负赶路人，时光不负有心人"]'>&nbsp;</span>
@@ -128,17 +104,29 @@
         </div>
         
     <div class="share-button">
-        <span></span>
+        <span>Contact me</span>
+        
+        <a href="https://github.com/PiercingAsphyxia/piercingasphyxia.github.io" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://piercingasphyxia.github.io/media/images/github.png" alt=""></i></a>
         
         
+        <a onclick="showqq()"><i style="font-size: 20px;"><img class="icon"
+                    src="https://piercingasphyxia.github.io/media/images/QQ.png" alt=""></i></a>
         
+        
+        <a href="https://www.zhihu.com/" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://piercingasphyxia.github.io/media/images/zh.png" alt=""></i></a>
+        
+        
+        <a href="https://space.bilibili.com/" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://piercingasphyxia.github.io/media/images/bilibili.png" alt=""></i></a>
         
         
         
         
         
     </div>
-    <div id="qq" style="display:none"></div>
+    <div id="qq" style="display:none">3403974578</div>
     <!------------ 加载菜单按钮👇 ------------------------->
     <div class="menucontainer">
         
@@ -179,6 +167,12 @@
         
         
 
+        
+        <div class="mchocie description">
+            <a data-pjax href="https://piercingasphyxia.github.io/talk" class="menubutton" style="margin-right: 15px;">
+                <i><img class="icon menuicon" src="" alt="说说"></i>&nbsp;<span data-text="说说">说说</span>
+            </a>
+        </div>
         
             
         <div class="mchocie description">
@@ -242,7 +236,7 @@
                 </div>
                 
             </div>
-            <div class="copyright" style="color:white;text-align: center;">
+            <div class="copyright" style="color:white;text-align: center;">Copyright © 2020  备案号: 鄂ICP备...号
             </div>
         </div>
 
@@ -393,7 +387,7 @@
     get();
 
     function get() {
-        var t = JSON.parse('[]');
+        var t = JSON.parse('[{"author":"","img":"","text":"","time":""}]');
         talkindex = t.length - 1;
         for (var i = 0; i <= t.length - 1; i++) {
             var d = {};
@@ -853,6 +847,8 @@ menulist.eq(i).show();
         </li>
         
         
+        
+        <li><a data-pjax href="https://piercingasphyxia.github.io/talk">说说</a></li>
         
           
         <li><a data-pjax href="https://piercingasphyxia.github.io/friends">友链</a></li>
