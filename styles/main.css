@@ -3237,12 +3237,12 @@ a {
         }
       
         .menubutton {
-          color: #ff6b6b;
+          color: #77d2dc;
         }
 
         .menucontainer span::before,
         .menucontainer span::after {
-          color:#ff6b6b;
+          color:#77d2dc;
           content: attr(data-text);
           position: absolute;
           top: -0.5em;
@@ -3252,7 +3252,7 @@ a {
         }
 
         .menubutton:visited{
-          color: #ff6b6b;
+          color: #77d2dc;
         }
       
         .mobiledescribtion{
