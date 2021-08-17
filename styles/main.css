@@ -3228,8 +3228,12 @@ a {
   }
 }
 
+      .sitename {
+        color: #66d9e8;
+      }
+    
         .describtion {
-          color: #52d3c7;
+          color: #63e6be;
         }
       
         .menubutton {
@@ -3249,5 +3253,9 @@ a {
 
         .menubutton:visited{
           color: #ff6b6b;
+        }
+      
+        .mobiledescribtion{
+          color: white;
         }
       
