@@ -3227,3 +3227,27 @@ a {
     margin-bottom: 10px;
   }
 }
+
+        .describtion {
+          color: #52d3c7;
+        }
+      
+        .menubutton {
+          color: #ff6b6b;
+        }
+
+        .menucontainer span::before,
+        .menucontainer span::after {
+          color:#ff6b6b;
+          content: attr(data-text);
+          position: absolute;
+          top: -0.5em;
+          left: 0;
+          width: 100%;
+          transition: 0.3s ease-out;
+        }
+
+        .menubutton:visited{
+          color: #ff6b6b;
+        }
+      
