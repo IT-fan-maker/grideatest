@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://piercingasphyxia.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-08-17T12:33:53.972Z</updated>
+    <title>Programming_Fate</title>
+    <updated>2021-08-17T12:47:08.671Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://piercingasphyxia.github.io"/>
     <link rel="self" href="https://piercingasphyxia.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>星光不负赶路人，时光不负有心人</subtitle>
     <logo>https://piercingasphyxia.github.io/images/avatar.png</logo>
     <icon>https://piercingasphyxia.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, Programming_Fate</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://piercingasphyxia.github.io/post/hello-gridea/</id>
